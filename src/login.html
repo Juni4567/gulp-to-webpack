@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HomePage title from webpack.config.js</title>
+
+      <link rel="stylesheet" href="css/<%= htmlWebpackPlugin.options.filename.split('.')[0] %>.css">
+
+
+	</head>
+  <body>
+  	    
+    <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+      <div><h3>1</h3></div>
+      <div><h3>2</h3></div>
+      <div><h3>3</h3></div>
+      <div><h3>4</h3></div>
+      <div><h3>5</h3></div>
+      <div><h3>6</h3></div>
+    </div>
+
+    <% for (let i = 0; i < htmlWebpackPlugin.files.js.length; i++) { %>
+      <script src="<%= htmlWebpackPlugin.files.js[i] %>"></script>
+    <% } %>
+  </body>
+</html>

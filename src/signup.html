@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HomePage title from webpack.config.js</title>
+
+      <link rel="stylesheet" href="css/<%= htmlWebpackPlugin.options.filename.split('.')[0] %>.css">
+
+	</head>
+  <body>
+
+    <% for (let i = 0; i < htmlWebpackPlugin.files.js.length; i++) { %>
+      <script src="<%= htmlWebpackPlugin.files.js[i] %>"></script>
+    <% } %>
+  </body>
+</html>
