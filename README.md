@@ -27,7 +27,7 @@ $ npm install  or yarn
 This will ensure your environment get automaticaly configured. From here, you can start coding. When you are done, run:
 
 ```sh
-$ npm build  or yarn build
+$ npm run build or yarn build
 ```
 
 This will update the files under ./dist/ folder. 
