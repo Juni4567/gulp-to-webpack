@@ -1,4 +1,4 @@
-# Gulp to Webpack Front-end Workflow
+# Switching from Gulp to Webpack - Front-end Workflow
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
 
@@ -8,7 +8,7 @@ It's a production ready **NPM+Webpack** _automation_ and _module bundler_ focuse
 
 ## Who is this for?
 
-The main target audience for this project are **Designers** and **Frontend Developers**, but people trying to figure out **Webpack** can also benefit from reading the config files.
+The main target audience for this project are **Designers** and **Frontend Developers**, but people trying to figure out **Webpack** can also benefit from reading the config files. Specially those who want to update their existing workflow from gulp or grunt and want to use latest features of javascript plus webpack. This is also a good start for those who are doing PSD to HTML.
 
 ## Why does this exists?
 
