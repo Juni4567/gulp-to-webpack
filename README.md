@@ -20,7 +20,7 @@ With git and node.js already installed, it's very straight forward. Just run:
 
 ```sh
 $ git clone https://github.com/Juni4567/gulp-to-webpack.git
-$ cd folder-created-by-this-repository
+$ cd gulp-to-webpack
 $ npm install  or yarn
 ```
 
