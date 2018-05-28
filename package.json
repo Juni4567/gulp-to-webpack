@@ -14,7 +14,7 @@
   ],
   "version": "1.0.0",
   "description": "A webpack workflow for those who wants to switch from gulp to wepback. This workflow has the ability to compile and transpile SCSS, HTML, JS(ES6)/JS and bundle fonts and images to a dist folder.",
-  "private": true,
+  "private": false,
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
