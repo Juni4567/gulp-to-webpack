@@ -43,7 +43,10 @@ This will update the files under ./dist/ folder.
 someFile: './src/js/someFile.js',
 ```
 
-	-- add the html template to the plugins array
+-- add the html template to the plugins array
+
+## What's missing?
+	-- Auto reload or hot module replacement plugin and a dev server
 
 ## Contributing
 
