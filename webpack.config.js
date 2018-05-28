@@ -6,13 +6,24 @@ const precss = require('precss');
 const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
 
-
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 module.exports = {
     entry: {
         home: './src/js/home.js',
         login: './src/js/login.js',
         signup: './src/js/signup.js'
+    },
+    optimization: {
+        minimizer: [
+          new UglifyJsPlugin({
+            cache: true,
+            parallel: true,
+            sourceMap: false // set to true if you want JS source maps
+          }),
+          new OptimizeCSSAssetsPlugin({})
+        ]
     },
     plugins: [
         // new CleanWebpackPlugin(['dist']), //not needed yet becuase it deletes stuff that we don't want
