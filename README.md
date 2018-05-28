@@ -10,6 +10,11 @@ It's a production ready **NPM+Webpack** _automation_ and _module bundler_ focuse
 
 The main target audience for this project are **Designers** and **Frontend Developers**, but people trying to figure out **Webpack** can also benefit from reading the config files. Specially those who want to update their existing workflow from gulp or grunt and want to use latest features of javascript plus webpack. This is also a good start for those who are doing PSD to HTML.
 
+## Features
+1. Support for each page to load only the resources required by that page e.g. css, images and js resources (css and js minified)
+2. Supports ES6 features and transpiles js to browser understandable js
+3. Converts images that are less than 8kb to base64 and embeds them directly in the html instead of putting them in the images folder.
+
 ## Why does this exists?
 
 Most of the boilerplates available out there are kind of minimal --- for education purposes --- or SPA driven --- useful when dealing with desktop/mobile applications, web apps, promotional/landing pages, utility pages _etc_  ---, but Internet is a very diverse environment where some kinds of software should be designed as MPAs which are good at _crawlability (SEO)_, _security_, _speed_, _cacheability_, _extensibility_ _etc_.
@@ -33,7 +38,7 @@ $ npm run build or yarn build
 This will update the files under ./dist/ folder. 
 
 
-## How to add more files?
+### How to add more files?
 1. Create the html file "someFile.html" in the src folder
 2. create the scss file in the same name "someFile.scss" in the src/scss folder
 3. create the same named file "someFile.js" in the src/js folder
