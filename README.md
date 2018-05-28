@@ -19,7 +19,7 @@ Most of the boilerplates available out there are kind of minimal --- for educati
 With git and node.js already installed, it's very straight forward. Just run:
 
 ```sh
-$ git clone This respositroy
+$ git clone https://github.com/Juni4567/gulp-to-webpack.git
 $ cd folder-created-by-this-repository
 $ npm install  or yarn
 ```
